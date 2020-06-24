@@ -627,4 +627,7 @@
      <string name="config_alternativeDeviceKeyHandlerLib" translatable="false">/system/priv-app/ZenParts/ZenParts.apk</string>
      <string name="config_alternativeDeviceKeyHandlerClass" translatable="false">com.asus.zenparts.KeyHandler</string>
 
+    <!-- Indicates that connected MAC randomization is supported on this device -->
+    <bool translatable="false" name="config_wifi_connected_mac_randomization_supported">true</bool>
+
 </resources>
