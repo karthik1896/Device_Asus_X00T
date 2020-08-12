@@ -171,7 +171,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false \
     ro.ril.ecclist=112,911 \
     ro.telephony.iwlan_operation_mode=legacy \
-    ro.telephony.use_old_mnc_mcc_format=true
+    ro.telephony.use_old_mnc_mcc_format=true \
+	persist.vendor.radio.aosp_usr_pref_sel=true \
+	persist.vendor.radio.add_power_save=1 \
+    persist.vendor.radio.apm_sim_not_pwdn=1
 
 # Sensor
 PRODUCT_PROPERTY_OVERRIDES += \

@@ -217,6 +217,7 @@ persist.vendor.camera.eis.enable=1
 persist.vendor.camera.is_type=5
 vendor.debug.camera.prop_dis=1
 persist.vendor.camera.aec.sync=1
+persist.vendor.radio.aosp_usr_pref_sel=true
 # end of device/qcom/sdm660_64/system.prop
 
 #
