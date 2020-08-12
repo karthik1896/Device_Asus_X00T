@@ -102,12 +102,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Dalvik overrides
 PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.heapgrowthlimit=256m \
-    dalvik.vm.heapmaxfree=8m \
-    dalvik.vm.heapminfree=512k \
+    dalvik.vm.heapgrowthlimit=192m \
     dalvik.vm.heapsize=512m \
-    dalvik.vm.heapstartsize=8m \
-    dalvik.vm.heaptargetutilization=0.75
+    dalvik.vm.heaptargetutilization=0.6 \
+    dalvik.vm.heapminfree=8m \
+    dalvik.vm.heapmaxfree=16m \
+    dalvik.vm.heapstartsize=8m
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -172,8 +172,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.ecclist=112,911 \
     ro.telephony.iwlan_operation_mode=legacy \
     ro.telephony.use_old_mnc_mcc_format=true \
-	persist.vendor.radio.aosp_usr_pref_sel=true \
-	persist.vendor.radio.add_power_save=1 \
+    persist.vendor.radio.aosp_usr_pref_sel=true \
+    persist.vendor.radio.add_power_save=1 \
     persist.vendor.radio.apm_sim_not_pwdn=1
 
 # Sensor
