@@ -96,9 +96,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.camera.eis.enable=1 \
+    persist.vendor.camera.ois.disable=1 \
+    persist.vendor.camera.is_type=4 \
+    persist.ts.rtmakeup=1 \
+    persist.vendor.camera.HAL3.enabled=1 \
     persist.vendor.camera.expose.aux=1 \
-    persist.vendor.camera.mpo.disabled=1 \
-    vendor.camera.aux.packagelist=org.codeaurora.snapcam
+    persist.vendor.camera.preview.ubwc=0 \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam \
+    vendor.camera.hal1.packagelist=com.whatsapp
 
 # Dalvik overrides
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -179,8 +185,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Sensor
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.sdk.sensors.gestures=false \
-    ro.vendor.qti.sensors.cmc=false \
-    ro.vendor.qti.sensors.facing=false
+    ro.vendor.qti.sensors.dev_ori=true \
+    ro.vendor.qti.sensors.pmd=true \
+    ro.vendor.qti.sensors.sta_detect=true \
+    ro.vendor.qti.sensors.mot_detect=true \
+    ro.vendor.qti.sensors.facing=false \
+    ro.vendor.qti.sensors.cmc=false
 
 # Shutdown waitime
 PRODUCT_PROPERTY_OVERRIDES += \
