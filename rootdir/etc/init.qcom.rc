@@ -400,6 +400,8 @@ on post-fs-data
     #Start move time data to /data/vendor once post-fs-data done
     start vendor.move_time_data
 
+setprop vendor.post_boot.parsed 1
+
 service iop /system/vendor/bin/iop
     class main
     user root
