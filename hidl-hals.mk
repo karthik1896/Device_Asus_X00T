@@ -16,116 +16,116 @@
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@2.0-service \
-    android.hardware.audio@2.0-impl \
-    android.hardware.audio.effect@2.0-impl \
-    android.hardware.soundtrigger@2.1-impl \
+	android.hardware.audio@2.0-service \
+	android.hardware.audio@2.0-impl \
+	android.hardware.audio.effect@2.0-impl \
+	android.hardware.soundtrigger@2.1-impl \
 	android.hardware.soundtrigger@2.2-impl \
-    android.hardware.audio@5.0 \
-    android.hardware.audio.common@5.0 \
-    android.hardware.audio.common@5.0-util \
-    android.hardware.audio@5.0-impl \
-    android.hardware.audio.effect@5.0 \
-    android.hardware.audio.effect@5.0-impl
-    
+	android.hardware.audio@5.0 \
+	android.hardware.audio.common@5.0 \
+	android.hardware.audio.common@5.0-util \
+	android.hardware.audio@5.0-impl \
+	android.hardware.audio.effect@5.0 \
+	android.hardware.audio.effect@5.0-impl
+	
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0 \
-    android.hardware.bluetooth.audio@2.0-impl \
-    vendor.qti.hardware.bluetooth_audio@2.0.vendor
+	android.hardware.bluetooth@1.0 \
+	android.hardware.bluetooth.audio@2.0-impl \
+	vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.frameworks.displayservice@1.0 \
-    android.hardware.camera.common@1.0 \
-    android.hardware.camera.device@3.4 \
-    android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service \
-    android.hardware.camera.provider@2.5 \
-    vendor.qti.hardware.camera.device@1.0
-    
+	android.frameworks.displayservice@1.0 \
+	android.hardware.camera.common@1.0 \
+	android.hardware.camera.device@3.4 \
+	android.hardware.camera.provider@2.4-impl \
+	android.hardware.camera.provider@2.4-service \
+	android.hardware.camera.provider@2.5 \
+	vendor.qti.hardware.camera.device@1.0
+	
 # Configstore
 PRODUCT_PACKAGES += \
-    android.hardware.configstore@1.0-service
+	android.hardware.configstore@1.0-service
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.allocator@2.0-impl \
-    android.hardware.graphics.allocator@2.0-service \
-    android.hardware.graphics.composer@2.1-impl \
-    android.hardware.graphics.composer@2.1-service \
-    android.hardware.graphics.mapper@2.0-impl-2.1 \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service
-    
+	android.hardware.graphics.allocator@2.0-impl \
+	android.hardware.graphics.allocator@2.0-service \
+	android.hardware.graphics.composer@2.1-impl \
+	android.hardware.graphics.composer@2.1-service \
+	android.hardware.graphics.mapper@2.0-impl-2.1 \
+	android.hardware.memtrack@1.0-impl \
+	android.hardware.memtrack@1.0-service
+	
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.0-impl \
-    android.hardware.drm@1.0-service \
-    android.hardware.drm@1.2-service.clearkey
-    
+	android.hardware.drm@1.0-impl \
+	android.hardware.drm@1.0-service \
+	android.hardware.drm@1.2-service.clearkey
+	
 # FM
 PRODUCT_PACKAGES += \
-    android.hardware.broadcastradio@1.0-impl \
-    android.hardware.broadcastradio@1.0-service
-    
+	android.hardware.broadcastradio@1.0-impl \
+	android.hardware.broadcastradio@1.0-service
+	
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.0-impl \
-    android.hardware.health@2.0-service
-    
+	android.hardware.health@2.0-impl \
+	android.hardware.health@2.0-service
+	
 # HIDL
 PRODUCT_PACKAGES += \
-    android.hidl.base@1.0 \
-    android.hidl.base@1.0_system \
-    android.hidl.manager@1.0 \
-    android.hidl.manager@1.0-java
-    
+	android.hidl.base@1.0 \
+	android.hidl.base@1.0_system \
+	android.hidl.manager@1.0 \
+	android.hidl.manager@1.0-java
+	
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-impl \
-    android.hardware.light@2.0-service
-    
+	android.hardware.light@2.0-impl \
+	android.hardware.light@2.0-service
+	
 # LiveDisplay native
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-    
+	vendor.lineage.livedisplay@2.0-service-sdm
+	
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.1-service
+	android.hardware.nfc@1.1-service
 
 # NFC-Secure Element
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.0
-    
+	android.hardware.secure_element@1.0
+	
 # Netutils
 PRODUCT_PACKAGES += \
-    android.system.net.netd@1.0
-    
+	android.system.net.netd@1.0
+	
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service-qti
-    
+	android.hardware.power@1.2-service-qti
+	
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-impl \
-    android.hardware.sensors@1.0-service
-    
+	android.hardware.sensors@1.0-impl \
+	android.hardware.sensors@1.0-service
+	
 # RenderScript HAL
 PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl \
-    android.hardware.power.stats@1.0-service.mock
+	android.hardware.renderscript@1.0-impl \
+	android.hardware.power.stats@1.0-service.mock
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.4 \
-    android.hardware.radio.config@1.2 \
-    android.hardware.secure_element@1.0
+	android.hardware.radio@1.4 \
+	android.hardware.radio.config@1.2 \
+	android.hardware.secure_element@1.0
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.mock
+	android.hardware.thermal@2.0-service.mock
 
 # WiFi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service
+	android.hardware.wifi@1.0-service
