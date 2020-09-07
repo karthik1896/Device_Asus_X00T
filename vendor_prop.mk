@@ -118,6 +118,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.video.disable.ubwc=1 \
+	debug.hwui.use_partial_updates=true \
 	ro.opengles.version=196610
 
 # FM
