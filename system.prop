@@ -218,6 +218,7 @@ vendor.debug.camera.prop_dis=1
 persist.vendor.camera.aec.sync=1
 persist.vendor.radio.aosp_usr_pref_sel=true
 persist.device_config.runtime_native.usap_pool_enabled=true
+debug.hwui.renderer=skiagl
 # end of device/qcom/sdm660_64/system.prop
 
 #
