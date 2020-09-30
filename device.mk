@@ -78,7 +78,11 @@ PRODUCT_PACKAGES += \
     
 # Call the proprietary setup
 $(call inherit-product, vendor/asus/X00T/X00T-vendor.mk)
-    
+
+# Charger
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.charger.enable_suspend=true
+
 # Camera
 PRODUCT_PACKAGES += \
     libgui_vendor \
