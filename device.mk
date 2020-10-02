@@ -70,7 +70,7 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
     
 # Audio Patch Script
-PATCH := $(shell ($(LOCAL_PATH)/audio_patch.sh))
+#PATCH := $(shell ($(LOCAL_PATH)/audio_patch.sh))
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -243,12 +243,6 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
-    
-# Overlays - Enforce RRO
-PRODUCT_ENFORCE_RRO_TARGETS := *
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage/lineage-sdk
 
 # Protobuf
 PRODUCT_PACKAGES += \
