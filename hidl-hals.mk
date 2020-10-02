@@ -110,7 +110,7 @@ PRODUCT_PACKAGES += \
 	
 # Power
 PRODUCT_PACKAGES += \
-	android.hardware.power@1.2-service-qti
+	android.hardware.power-service-qti
 	
 # Sensors
 PRODUCT_PACKAGES += \
