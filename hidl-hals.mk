@@ -43,10 +43,14 @@ PRODUCT_PACKAGES += \
 	android.hardware.camera.provider@2.4-service \
 	android.hardware.camera.provider@2.5 \
 	vendor.qti.hardware.camera.device@1.0
-	
+
+# Cas
+PRODUCT_PACKAGES += \
+        android.hardware.cas@1.1
+
 # Configstore
 PRODUCT_PACKAGES += \
-	android.hardware.configstore@1.0-service
+        android.hardware.configstore@1.1-service
 
 # Display
 PRODUCT_PACKAGES += \
@@ -87,6 +91,13 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
+# IPACM
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml \
+    libipanat \
+    liboffloadhal
+
 # Lights
 PRODUCT_PACKAGES += \
 	android.hardware.light@2.0-impl \
@@ -112,7 +123,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	android.hardware.sensors@1.0-impl \
 	android.hardware.sensors@1.0-service
-	
+
 # RenderScript HAL
 PRODUCT_PACKAGES += \
 	android.hardware.renderscript@1.0-impl \
@@ -126,8 +137,18 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-	android.hardware.thermal@2.0-service.mock
+	android.hardware.thermal@2.0-service.mock \
+        android.hardware.thermal@2.0
+
+#Tetheroffload
+PRODUCT_PACKAGES += \
+       android.hardware.tetheroffload.config@1.0.so \
+       android.hardware.tetheroffload.control@1.0.so
+# Usb
+PRODUCT_PACKAGES += \
+      android.hardware.usb@1.0
 
 # WiFi
 PRODUCT_PACKAGES += \
-	android.hardware.wifi@1.0-service
+	android.hardware.wifi@1.0-service \
+        android.hardware.wifi@1.0
