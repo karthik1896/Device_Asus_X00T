@@ -17,6 +17,7 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/revengeos/config/common.mk)
@@ -45,3 +46,5 @@ BUILD_FINGERPRINT := google/coral/coral:11/RP1A.200720.009/6720564:user/release-
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 	ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+
