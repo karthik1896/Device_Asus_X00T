@@ -136,8 +136,8 @@ PRODUCT_PACKAGES += \
 
 #Tetheroffload
 PRODUCT_PACKAGES += \
-       android.hardware.tetheroffload.config@1.0.so \
-       android.hardware.tetheroffload.control@1.0.so
+       android.hardware.tetheroffload.config@1.0 \
+       android.hardware.tetheroffload.control@1.0
 # Usb
 PRODUCT_PACKAGES += \
       android.hardware.usb@1.0
