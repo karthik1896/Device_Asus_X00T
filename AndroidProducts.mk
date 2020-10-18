@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_X00T.mk
+    $(LOCAL_DIR)/carbon_X00T.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_X00T-user \
-    revengeos_X00T-userdebug \
-    revengeos_X00T-eng
+    carbon_X00T-user \
+    carbon_X00T-userdebug \
+    carbon_X00T-eng
