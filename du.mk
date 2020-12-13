@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -30,7 +30,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00T
 PRODUCT_MANUFACTURER := asus
-PRODUCT_NAME := lineage_X00T
+PRODUCT_NAME := du_X00T
 PRODUCT_MODEL := ASUS_X00T
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
@@ -43,3 +43,5 @@ BUILD_FINGERPRINT := "google/coral/coral:11/RQ1A.201205.008/6943376:user/release
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 	ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
