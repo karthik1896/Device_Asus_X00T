@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common Syberia Project stuff
-$(call inherit-product, vendor/syberia/common.mk)
+$(call inherit-product, vendor/derp/config/derp.mk)
 
 # Inherit from X00T device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -29,7 +29,7 @@ PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00T
 PRODUCT_MODEL := ZenFone Max Pro M1
 PRODUCT_MANUFACTURER := asus
-PRODUCT_NAME := syberia_X00T
+PRODUCT_NAME := derp_X00T
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
@@ -42,6 +42,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := google/crosshatch/crosshatch:9/PQ3A.190801.002/5670241:user/release-keys
 
-TARGET_BOOT_ANIMATION_RES := 2160
-
-SYBERIA_BUILD_TYPE := OFFICIAL
+TARGET_BOOT_ANIMATION_RES := 1080
