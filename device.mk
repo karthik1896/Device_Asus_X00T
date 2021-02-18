@@ -223,10 +223,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     chargeonlymode
 
-#OTA Updates
-PRODUCT_PACKAGES += \
-    Updates
-
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
