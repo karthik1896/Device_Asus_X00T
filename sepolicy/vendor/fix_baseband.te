@@ -1,7 +1,0 @@
-init_daemon_domain(fix_baseband)
-
-allow fix_baseband firmware_file:dir search;
-allow fix_baseband firmware_file:file r_file_perms;
-allow fix_baseband vendor_shell_exec:file { entrypoint read getattr };
-allow fix_baseband vendor_toolbox_exec:file { execute_no_trans };
-set_prop(fix_baseband, baseband_prop)
