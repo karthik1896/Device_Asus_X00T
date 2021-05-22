@@ -345,11 +345,11 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-system
 
 # RRO configuration
-TARGET_USES_RRO := true
-PRODUCT_ENFORCE_RRO_TARGETS := *
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay/packages/apps/Snap \
-    $(LOCAL_PATH)/overlay-system
+#TARGET_USES_RRO := true
+#PRODUCT_ENFORCE_RRO_TARGETS := *
+#PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    #$(LOCAL_PATH)/overlay/packages/apps/Snap \
+    #$(LOCAL_PATH)/overlay-system
 
 # Power
 PRODUCT_PACKAGES += \
