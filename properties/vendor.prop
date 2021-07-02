@@ -35,7 +35,7 @@ vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=false
 
 # Audio feature
-vendor.audio.feature.a2dp_offload.enable=false
+vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.afe_proxy.enable=true
 vendor.audio.feature.anc_headset.enable=true
 vendor.audio.feature.audiozoom.enable=false
@@ -81,9 +81,10 @@ vendor.audio.feature.wsa.enable=false
 # Bluetooth
 persist.bluetooth.disableabsvol=true
 persist.vendor.bt.aac_frm_ctl.enabled=true
+persist.bluetooth.a2dp_offload.disabled=false
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxhd-aac-ldac
 persist.vendor.qcom.bluetooth.enable.splita2dp=true
-ro.bluetooth.a2dp_offload.supported=false
+ro.bluetooth.a2dp_offload.supported=true
 vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
