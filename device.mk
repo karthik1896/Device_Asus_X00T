@@ -153,8 +153,11 @@ PRODUCT_PACKAGES += \
 # HwBinder
 PRODUCT_PACKAGES += \
     libhwbinder \
-    libhwbinder.vendor
-
+    libhwbinder.vendor \
+    android.hidl.base@1.0.vendor \
+    android.hidl.manager@1.0 \
+    android.hidl.manager@1.0.vendor \
+    android.hidl.manager@1.0-java
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
