@@ -20,8 +20,8 @@
     srcs: ["init_X00T.cpp"],
     whole_static_libs: ["libbase"],
     include_dirs: [
-        "system/core/base/include",
         "system/core/init",
+        "system/libbase/include"
         
     ]
 }
