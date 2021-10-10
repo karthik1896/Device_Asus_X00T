@@ -32,6 +32,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Build has overriding commands
 BUILD_BROKEN_DUP_RULES := true
+RELAX_USES_LIBRARY_CHECK=true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Platform
