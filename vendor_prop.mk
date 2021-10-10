@@ -281,6 +281,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.video.disable.ubwc=1
 
+# Soc
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SDM660
+
 # Time
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true
