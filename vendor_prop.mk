@@ -230,6 +230,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ril.subscription.types=NV,RUIM \
     vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
     ro.carrier=unknown \
+    persist.sys.fflag.override.settings_provider_model=false \
     ro.com.android.dataroaming=false \
     ro.config.vc_call_vol_steps=11 \
     ro.ril.ecclist=112,911 \
