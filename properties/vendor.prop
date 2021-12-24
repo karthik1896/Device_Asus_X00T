@@ -155,6 +155,9 @@ ro.telephony.iwlan_operation_mode=legacy
 ro.telephony.default_network=20,20
 ro.com.android.dataroaming=false
 
+# USB
+persist.vendor.usb.config=diag,serial_cdev,rmnet,adb
+
 # Radio - IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
