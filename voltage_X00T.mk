@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 The voltageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,16 +19,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common voltage stuff
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Inherit from X00T device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Official-ify
+VOLTAGE_BUILD_TYPE := OFFICIAL
+
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00T
 PRODUCT_MANUFACTURER := asus
-PRODUCT_NAME := lineage_X00T
+PRODUCT_NAME := voltage_X00T
 PRODUCT_MODEL := ASUS_X00T
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
