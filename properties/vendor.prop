@@ -98,6 +98,10 @@ vidc.enc.dcvs.extra-buff-count=2
 # Charger
 ro.charger.enable_suspend=true
 
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
+
 # Display
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
