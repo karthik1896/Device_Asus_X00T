@@ -157,6 +157,7 @@ ro.com.android.dataroaming=false
 
 # USB
 persist.vendor.usb.config=diag,serial_cdev,rmnet,adb
+vendor.usb.diag.func.name=diag
 
 # Radio - IMS
 persist.dbg.volte_avail_ovr=1
