@@ -642,6 +642,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal> <!--Goodix Fingerprint Service -->
     <sepolicy>
-        <version>30.0</version>
+        <version>33.0</version>
     </sepolicy>
 </manifest>
