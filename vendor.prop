@@ -155,6 +155,8 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 vendor.display.idle_time=32767
 vendor.gralloc.disable_ahardware_buffer=1
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 
 # IWLAN
 persist.data.iwlan.enable=true
