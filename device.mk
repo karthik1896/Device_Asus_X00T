@@ -465,7 +465,7 @@ WITH_DEXPREOPT_DEBUG_INFO := false
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
-    SystemUI
+    SystemUIGoogle
 
 # Telephony
 PRODUCT_PACKAGES += \
