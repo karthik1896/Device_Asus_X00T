@@ -38,6 +38,9 @@ DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
+# Render
+debug.cpurend.vsync=false
+
 # ScalarConfig
 vendor.display.disable_scaler=1
 
