@@ -521,6 +521,6 @@ PRODUCT_COPY_FILES += \
 
 # Wifi Overlay
 PRODUCT_PACKAGES += \
-    X00TWifiOverlay
+    WifiOverlayX00T
 
 $(call inherit-product, vendor/asus/X00T/X00T-vendor.mk)
