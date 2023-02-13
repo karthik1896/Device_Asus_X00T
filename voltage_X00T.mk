@@ -47,7 +47,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=X00T \
     PRODUCT_DEVICE=X00T \
     PRODUCT_NAME=WW_X00T \
-    PRIVATE_BUILD_DESC="google/coral/coral:13/TP1A.220624.014/8819323:user/release-keys"
-
-# Build fingerprint
-BUILD_FINGERPRINT := "google/coral/coral:13/TP1A.220624.014/8819323:user/release-keys"
+    PRIVATE_BUILD_DESC="sdm660_64-user 8.1.0 OPM1 1309 release-keys"
