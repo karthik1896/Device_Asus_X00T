@@ -1,15 +1,15 @@
 [
   {
     "remote": "VoltageOS-Devices",
-    "repository": "android_vendor_asus",
+    "repository": "vendor_asus",
     "target_path": "vendor/asus",
-    "branch": "12"
+    "branch": "13"
   }
   {
     "remote": "VoltageOS-Devices",
-    "repository": "android_kernel_asus_sdm660",
+    "repository": "kernel_asus_sdm660",
     "target_path": "kernel/asus/sdm660",
-    "branch": "12"
+    "branch": "13"
   }
 ]
 
