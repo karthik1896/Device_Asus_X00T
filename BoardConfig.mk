@@ -198,6 +198,10 @@ SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_VNDK_VERSION := current
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Verity
+# Only needed for signing
+BOARD_AVB_ENABLE := false
+
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
