@@ -80,6 +80,8 @@ vendor.voice.path.for.pcm.voip=true
 bluetooth.hardware.power.operating_voltage_mv=3300
 persist.vendor.bt.aac_frm_ctl.enabled=true
 persist.vendor.qcom.bluetooth.soc=cherokee
+persist.vendor.bt.a2dp_offload_cap=sbc-aac-aptx-aptxhd-ldac
+persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aac-aptx-aptxhd-ldac
 vendor.qcom.bluetooth.soc=cherokee
 bluetooth.device.default_name=Asus Zenfone Max Pro M1
 
