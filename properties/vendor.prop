@@ -141,6 +141,8 @@ debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 ro.config.avoid_gfx_accel=true
 debug.sf.disable_client_composition_cache=1
+debug.sf.enable_transaction_tracing=false
+debug.sf.predict_hwc_composition_strategy=0
 
 # Fling
 ro.min.fling_velocity=160 
