@@ -143,6 +143,7 @@ ro.config.avoid_gfx_accel=true
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_transaction_tracing=false
 debug.sf.predict_hwc_composition_strategy=0
+vendor.display.disable_metadata_dynamic_fps=1
 
 # Fling
 ro.min.fling_velocity=160 
