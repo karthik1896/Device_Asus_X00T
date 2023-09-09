@@ -1000,16 +1000,16 @@ vendor/lib/libhdr_tm.so|a2292af314f9fa86b9ec2bb11ad72bf85e959842
 vendor/lib64/libhdr_tm.so|a1b9bbad12217e6b79951774801aa54be6460fd6
 
 # Graphics (SDM) - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
--vendor/lib/libsdm-disp-vndapis.so|efe67908e419b8db34068896c9b45cdf9b4e535b
--vendor/lib64/libsdm-disp-vndapis.so|8e92d1f17735c26658c17148da6e1882b5bc6fb0
 vendor/lib/libqseed3.so|1a67e4c3e7d904dc3d3af35c0f516fe13ed88bcb
 vendor/lib/libsdm-color.so|05e6eedb8f9656d9097a1c3cee09ceeef1025181
 vendor/lib/libsdm-diag.so|a2b532158e12562e1fb74695bf829de1b94c2cde
+-vendor/lib/libsdm-disp-vndapis.so|efe67908e419b8db34068896c9b45cdf9b4e535b
 vendor/lib/libsdmextension.so|cb5d63a477317806cf1a95cfd5393fe83dd86f94
 vendor/lib/libtinyxml2_1.so|aec76b36890b163f9cf1be594d6b082887f0a9b2
 vendor/lib64/libqseed3.so|a858c83fb38ef7acd21ea0a23f36ef22ba8c06ef
 vendor/lib64/libsdm-color.so|9c80ac4e059bff1c53814e9f5f71a5fbe38bce40
 vendor/lib64/libsdm-diag.so|2ba98c20d05e34501a4423f55bec4da3f27711ad
+-vendor/lib64/libsdm-disp-vndapis.so|8e92d1f17735c26658c17148da6e1882b5bc6fb0
 vendor/lib64/libsdmextension.so|58518bd600b7ced736db072d858e862abd2f8f0f
 vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 
@@ -1052,16 +1052,8 @@ system_ext/lib64/libmmosal.so|d0f37596108fb90b129edec4c6e8ba3648733498
 system_ext/lib64/libmmparser_lite.so|08268b9d286891cce537ce72a04046e5131e915b
 vendor/lib/libAlacSwDec.so|3a6d7dae2808dbe111ff4449b4e1e82560466ef3
 vendor/lib/libApeSwDec.so|ff14ad2ebbabcd89278830d817e9aa6bdcb1799a
-vendor/lib/libdsd2pcm.so|f9d2f26315764c27137bc375bb85b20fabe66ff9
 vendor/lib/libFlacSwDec.so|707dbc6b5d2890dc3bba22c00b372f0973baebda
 vendor/lib/libI420colorconvert.so|c72c346cbd28baafeeb8a7eee7ad3b1b26789c81
-vendor/lib/libmm-color-convertor.so|156d4329e983bf052da04742a3d4dd61b6b49dfd
-vendor/lib/libmmosal.so|a2203f5be5dc1ee10d2f5da8f167a46acb0a660e
-vendor/lib/libmmsw_detail_enhancement.so|0768507fd84c194f2284ca1fca2c665c0a4aba41
-vendor/lib/libmmsw_math.so|6a105178f4af2711d05ce7365bc21eb6a738f01a
-vendor/lib/libmmsw_opencl.so|1b5a191eb91306a283f8864703b1368d127c223e
-vendor/lib/libmmsw_platform.so|45941145d93dc001326a8be4730a29f7d2e95597
-vendor/lib/libmulawdec.so|77e601262e2457f8b85595c102a9904a0cbdb108
 vendor/lib/libOmxAacDec.so|db8d391d962e7eb90ce4d956b8163adb93822f17
 vendor/lib/libOmxAlacDec.so|a6b3cb56fc991aa85fed413a4159f5ed3bff1d5d
 vendor/lib/libOmxAlacDecSw.so|ff4b38dbead17dcd0c9a045f109fa4e92ca2992a
@@ -1075,17 +1067,18 @@ vendor/lib/libOmxG711Dec.so|f5b093109c961775e645d610ec9a88a0c12fab79
 vendor/lib/libOmxQcelp13Dec.so|b885698d1e217ae56202b0106c88c967cf370b70
 vendor/lib/libOmxVideoDSMode.so|cd54262e18ad7fc548eba0799e3acfea5fcaaca5
 vendor/lib/libOmxWmaDec.so|a1a5d179156b643909804e1db570570f88a248f1
+vendor/lib/libdsd2pcm.so|f9d2f26315764c27137bc375bb85b20fabe66ff9
+vendor/lib/libmm-color-convertor.so|156d4329e983bf052da04742a3d4dd61b6b49dfd
+vendor/lib/libmmosal.so|a2203f5be5dc1ee10d2f5da8f167a46acb0a660e
+vendor/lib/libmmsw_detail_enhancement.so|0768507fd84c194f2284ca1fca2c665c0a4aba41
+vendor/lib/libmmsw_math.so|6a105178f4af2711d05ce7365bc21eb6a738f01a
+vendor/lib/libmmsw_opencl.so|1b5a191eb91306a283f8864703b1368d127c223e
+vendor/lib/libmmsw_platform.so|45941145d93dc001326a8be4730a29f7d2e95597
+vendor/lib/libmulawdec.so|77e601262e2457f8b85595c102a9904a0cbdb108
 vendor/lib64/libAlacSwDec.so|9fbfad65ffca33e1ac480e9cb056467ac75a6d5a
 vendor/lib64/libApeSwDec.so|76d3cc02ca1c3cdc3c71e57dc6e53027d2bf3d37
 vendor/lib64/libFlacSwDec.so|002aa39927e75568efb81c7ae3a044c694babfc3
 vendor/lib64/libI420colorconvert.so|55308319724e18eb5eb41ad387f991969f1e184c
-vendor/lib64/libmm-color-convertor.so|b0bcb3902d9b0b06d363d9214104a7055043a2bc
-vendor/lib64/libmmosal.so|595faff0767dc2bd0a344a98ab65a239bed14826
-vendor/lib64/libmmsw_detail_enhancement.so|8cc961dd717a5f8f421af77767447f0216616883
-vendor/lib64/libmmsw_math.so|f55f129b666780d4d33ffb50ea6cbfb7245b9a9d
-vendor/lib64/libmmsw_opencl.so|861abc7f0b529f63533938f1047248ed7f491f4d
-vendor/lib64/libmmsw_platform.so|3f4886395487356cfe5067afb753f17b3c34e3c8
-vendor/lib64/libmulawdec.so|9a21d843c7bd2a516e0f1ce375855b767947b314
 vendor/lib64/libOmxAacDec.so|30aa5c5d03c4d7594811207b44bf2f82b28c7aef
 vendor/lib64/libOmxAlacDec.so|bdd293f62496f8829c508decb8691073eb53170a
 vendor/lib64/libOmxAlacDecSw.so|159ea5d27936611107adf7355db760819bded68f
@@ -1097,6 +1090,13 @@ vendor/lib64/libOmxEvrcDec.so|2d1abf086da6073e313a0ccbf7a509b010e7a0ab
 vendor/lib64/libOmxG711Dec.so|8514ff8356c2ccd4e05a8bb2c29639d19284a286
 vendor/lib64/libOmxQcelp13Dec.so|de2e1bf8c6d2fa520fc13f8eadf8c803f709b928
 vendor/lib64/libOmxWmaDec.so|72d748d4feeb92a8d8963ee71ea5cbe57cd72f7d
+vendor/lib64/libmm-color-convertor.so|b0bcb3902d9b0b06d363d9214104a7055043a2bc
+vendor/lib64/libmmosal.so|595faff0767dc2bd0a344a98ab65a239bed14826
+vendor/lib64/libmmsw_detail_enhancement.so|8cc961dd717a5f8f421af77767447f0216616883
+vendor/lib64/libmmsw_math.so|f55f129b666780d4d33ffb50ea6cbfb7245b9a9d
+vendor/lib64/libmmsw_opencl.so|861abc7f0b529f63533938f1047248ed7f491f4d
+vendor/lib64/libmmsw_platform.so|3f4886395487356cfe5067afb753f17b3c34e3c8
+vendor/lib64/libmulawdec.so|9a21d843c7bd2a516e0f1ce375855b767947b314
 
 # NFC
 vendor/lib/libpn553_fw.so
@@ -1143,10 +1143,10 @@ vendor/lib64/libgameoptfeature.so|b135489d253f0a8d7884238fe7887eb85b87745d
 vendor/lib64/liblearningmodule.so|a9390d0ef1ec82c97a61035ec686c1d094fdca98
 
 # Postprocessing - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
--system_ext/app/colorservice/colorservice.apk|a792c063ee457bb4b08f551177831c77d8455d53
 etc/permissions/com.qti.snapdragon.sdk.display.xml|0bff16d681e75f203c1e11ff33afba82490e49b3
 framework/com.qti.snapdragon.sdk.display.jar|657b74d0517f6438d3e0914f92f3b8de6d2a10a1
 lib64/libsdm-disp-apis.so|131b769dcda8e95cd999f912a9fa48636c792092
+-system_ext/app/colorservice/colorservice.apk|a792c063ee457bb4b08f551177831c77d8455d53
 system_ext/lib64/libsd_sdk_display.so|a73824afb15eca45e680ff9e49cf9144fe35b3d4
 system_ext/lib64/vendor.display.color@1.0.so|285a872d9de41b6de48dd1b3d288e7de56c35ba6
 system_ext/lib64/vendor.display.color@1.1.so|241abd3090b46d3ab83ff3be229352b1bb83fbda
@@ -1372,14 +1372,13 @@ vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
 vendor/bin/cnss-daemon|1c63b8f94ba601b76edb0ee2fa1d1880de8d0ea3
 
 # WFD - from LA.UM.9.2.r1-03500-SDMxx0.0
--framework/WfdCommon.jar|0faa0fdf415b1ecdc92dfe6a52946a3248b7b02b
--priv-app/WfdService/WfdService.apk|77079899514d088bc7442864e1787660051b4a08
 bin/sigma_miracasthalservice|2cb8e592d0fb0b6226b2cf6fbd0b8fb5c9750487
 bin/wfdservice|57f6036617f625825c63ae4aa17f57ecad5f65b1
 etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc|390daeb9ae8f3276b7200a53a6e1d62769f48567
 etc/init/wfdservice.rc|311bfdd1675e56499662f39455536b75b78477bb
 etc/wfdconfig.xml|d07f6b0441c0aa8913865100239490fa8687a020
 etc/wfdconfigsink.xml|5b4a96f251fd83c2eee520d06bea2b5b159fcd36
+-framework/WfdCommon.jar|0faa0fdf415b1ecdc92dfe6a52946a3248b7b02b
 lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so|7fba6cbb1dead1179614ae398d0172be3a368c1f
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so|53170660f8bf41dbf209a2300f3e97007c90ef9c
 lib/libmiracastsystem.so|ceb0678e27f30ab4ebd438d86004fcf8f51b432a
@@ -1413,6 +1412,7 @@ lib64/libwfdclient.so|0a6a4bd7b4f4907e942531bfe733db04167180d0
 lib64/libwfdnative.so|619527e76c6194d46b3e3cee4ffe69058f2e712b
 lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so|0633e14398a4dca7b78326ea484fa2fa0152e996
 lib64/vendor.qti.hardware.sigma_miracast@1.0.so|8711a8f923242ec97779a17d069b3b8fbad25c84
+-priv-app/WfdService/WfdService.apk|77079899514d088bc7442864e1787660051b4a08
 vendor/bin/wifidisplayhalservice|d7b153a223f1866a753cef6bbc47315481115559
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc|04e463342cbba4c0e9c311a18238f95dec9359fd
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so|0b66c6a8e6edcf48f987985591da1931443cdb27
