@@ -876,6 +876,7 @@ vendor/lib64/librpmb.so|085a3a79b627d1210654ad50902b36a0ba3ee99c
 vendor/lib64/libsdedrm.so|a6af861a2db5721e0ef1d9606713e967c3d39b1c
 vendor/lib64/libsecureui.so|6cd84092ab2d70bf17fff025376d50294c935439
 vendor/lib64/libssd.so|08566fd544144a9fef6d53eb297df091f1f611af
+vendor/lib64/libsecureui_svcsock.so|6af612f057f4f28720d6db9b300b58c883da6539
 
 # DRM - Qualcomm Trusted Execution Enviornment - from ddv_sprout 11-RKQ1.210607.001-00WW_3_440-release-keys
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|a12cd8a3d326609ee0f0a0cdb5cfc69bd2085f1e
