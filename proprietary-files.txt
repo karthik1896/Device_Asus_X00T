@@ -745,6 +745,8 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so|dcfdc04b4e0c6e6a4ffa60e1694268bd03
 # ANT+ - from ddv_sprout 11-RKQ1.210607.001-00WW_3_440-release-keys
 vendor/lib/hw/com.dsi.ant@1.0-impl.so|079573a7412736b6f2da827d16cdd12d34a4f6a6
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|87dc1a131534659173e71e108e7a3ffe6325845f
+vendor/lib/com.dsi.ant@1.0.so|1b605523be5d375ee604289185cb0963613c3b44
+vendor/lib64/com.dsi.ant@1.0.so|87778e4355d5f231f133934227059baaebb89dd4
 
 # Audio libraries
 vendor/lib/soundfx/libasphere.so
